@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whats_up_genix/constants/colors.dart';
+import 'package:whats_up_genix/constants/app_colors.dart';
+import 'package:whats_up_genix/constants/app_fonts.dart';
 import 'package:whats_up_genix/screens/calls_screen.dart';
 import 'package:whats_up_genix/screens/chats_screen.dart';
 import 'package:whats_up_genix/screens/community_screen.dart';
@@ -30,7 +31,7 @@ class _WhatsUpHomeState extends State<WhatsUpHome> with SingleTickerProviderStat
         elevation: 0.7,
         title: Text(
           widget.title,
-          style: const TextStyle(fontSize: 23),
+          style: TextStyle(fontSize: AppFonts.fontSize23),
         ),
         actions: [
           IconButton(

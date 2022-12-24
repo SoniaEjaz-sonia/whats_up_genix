@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whats_up_genix/constants/colors.dart';
+import 'package:whats_up_genix/constants/app_colors.dart';
+import 'package:whats_up_genix/constants/app_fonts.dart';
 import 'package:whats_up_genix/models/chats_model.dart';
 
 class ChatsScreen extends StatelessWidget {
@@ -18,16 +19,16 @@ class ChatsScreen extends StatelessWidget {
                 ),
                 title: Text(
                   chatsList[index].message,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.w500,
-                    fontSize: 16.0,
+                  style: TextStyle(
+                    fontWeight: AppFonts.fontWeight500,
+                    fontSize: AppFonts.fontSize16,
                   ),
                 ),
                 trailing: Text(
                   chatsList[index].time,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.normal,
-                    fontSize: 12.0,
+                  style: TextStyle(
+                    fontWeight: AppFonts.fontWeightNormal,
+                    fontSize: AppFonts.fontSize12,
                     color: AppColors.tealGreenColor,
                   ),
                 ),
@@ -44,25 +45,25 @@ class ChatsScreen extends StatelessWidget {
                   children: [
                     Text(
                       chatsList[index].name,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w500,
-                        fontSize: 16.0,
+                      style: TextStyle(
+                        fontWeight: AppFonts.fontWeight500,
+                        fontSize: AppFonts.fontSize16,
                       ),
                     ),
                     Text(
                       chatsList[index].time,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.normal,
-                        fontSize: 12.0,
+                      style: TextStyle(
+                        fontWeight: AppFonts.fontWeightNormal,
+                        fontSize: AppFonts.fontSize12,
                       ),
                     ),
                   ],
                 ),
                 subtitle: Text(
                   chatsList[index].message,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.normal,
-                    fontSize: 14.0,
+                  style: TextStyle(
+                    fontWeight: AppFonts.fontWeightNormal,
+                    fontSize: AppFonts.fontSize14,
                   ),
                 ),
               );
