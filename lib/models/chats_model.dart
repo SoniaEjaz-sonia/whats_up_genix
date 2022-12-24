@@ -20,6 +20,12 @@ class ChatsModel {
 
 List<ChatsModel> chatsList = [
   ChatsModel(
+    name: "",
+    message: "Archived",
+    time: "10",
+    imageURL: "",
+  ),
+  ChatsModel(
     name: "Harry Johns",
     message: "Hey Flutter",
     time: "13:30",
