@@ -1,3 +1,4 @@
+import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:whats_up_genix/constants/app_colors.dart';
 import 'package:whats_up_genix/constants/app_fonts.dart';
@@ -35,10 +36,24 @@ class ChatsScreen extends StatelessWidget {
               )
             : ListTile(
                 contentPadding: const EdgeInsets.symmetric(horizontal: 8.0),
-                leading: CircleAvatar(
-                  foregroundColor: Theme.of(context).primaryColor,
-                  backgroundColor: AppColors.greyColor,
-                  backgroundImage: NetworkImage(chatsList[index].imageURL),
+                leading: DottedBorder(
+                  borderType: BorderType.Circle,
+                  padding: const EdgeInsets.all(3),
+                  strokeWidth: 2.5,
+                  strokeCap: StrokeCap.round,
+                  dashPattern: const [150, 0, 0, 0],
+                  color: AppColors.whiteColor,
+                  child: Container(
+                    height: 220,
+                    width: 50,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      image: DecorationImage(
+                        image: NetworkImage(chatsList[index].imageURL),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
                 ),
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
