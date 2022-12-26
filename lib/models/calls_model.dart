@@ -12,7 +12,7 @@ class CallsModel {
   });
 }
 
-List<CallsModel> chatsList = [
+List<CallsModel> callsList = [
   CallsModel(
     name: "Harry Johns",
     time: "Yesterday 13:30 PM",
