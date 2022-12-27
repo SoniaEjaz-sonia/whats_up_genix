@@ -71,7 +71,7 @@ class StatusScreen extends StatelessWidget {
                           statusList[index].statusCount.toDouble(),
                           statusList[index].statusCount.toDouble(),
                         ],
-                  color: AppColors.lightGreenColor,
+                  color: AppColors.tealGreenColor,
                   child: Container(
                     height: 220,
                     width: 70,
