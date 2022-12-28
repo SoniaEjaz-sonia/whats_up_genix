@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "468766802785",
+    "firebase_url": "https://newproject-1a3c7.firebaseio.com",
+    "project_id": "newproject-1a3c7",
+    "storage_bucket": "newproject-1a3c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468766802785:android:cbc2a62dd2fd1af6c73b20",
+        "android_client_info": {
+          "package_name": "com.example.whats_up_genix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468766802785-b3dm13pkqmhm0q7mqcpqbik4pg3fpbgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_S8U7WVg0LDuyodPNbTBEEuhkuWJs3nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468766802785-b3dm13pkqmhm0q7mqcpqbik4pg3fpbgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
